@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.14.13-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.13-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="Hidden" name="pkuid">
       <widgetv2config fieldEditable="1" labelOnTop="0"/>
@@ -462,7 +462,7 @@
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="12">
         <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
+          <prop k="angle" v="358"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/cavalaria.svg"/>
@@ -3751,6 +3751,10 @@
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/anfibio.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="offset_dd_active" v="1"/>
+          <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
+          <prop k="offset_dd_field" v=""/>
+          <prop k="offset_dd_useexpr" v="1"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="255,255,255,255"/>
@@ -3759,13 +3763,69 @@
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
-          <prop k="size_dd_active" v="0"/>
-          <prop k="size_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.0006&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.001&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.0013&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.005&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.001&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.012&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.012&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.027&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
           <prop k="size_dd_field" v=""/>
           <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
+          <effect enabled="1" type="effectStack">
+            <effect type="dropShadow">
+              <prop k="blend_mode" v="13"/>
+              <prop k="blur_level" v="10"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="offset_angle" v="135"/>
+              <prop k="offset_distance" v="2"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="outerGlow">
+              <prop k="blend_mode" v="0"/>
+              <prop k="blur_level" v="3"/>
+              <prop k="color_type" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="single_color" v="255,255,255,255"/>
+              <prop k="spread" v="2"/>
+              <prop k="spread_unit" v="MM"/>
+              <prop k="spread_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0.5"/>
+            </effect>
+            <effect type="drawSource">
+              <prop k="blend_mode" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="innerShadow">
+              <prop k="blend_mode" v="13"/>
+              <prop k="blur_level" v="0"/>
+              <prop k="color" v="227,26,28,255"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="1"/>
+              <prop k="offset_angle" v="0"/>
+              <prop k="offset_distance" v="50"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="innerGlow">
+              <prop k="blend_mode" v="0"/>
+              <prop k="blur_level" v="3"/>
+              <prop k="color_type" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="1"/>
+              <prop k="single_color" v="227,26,28,255"/>
+              <prop k="spread" v="50"/>
+              <prop k="spread_unit" v="MM"/>
+              <prop k="spread_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+          </effect>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="48">
@@ -3775,6 +3835,10 @@
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/veterinaria.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="offset_dd_active" v="1"/>
+          <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
+          <prop k="offset_dd_field" v=""/>
+          <prop k="offset_dd_useexpr" v="1"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="255,255,255,255"/>
@@ -3783,13 +3847,69 @@
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
-          <prop k="size_dd_active" v="0"/>
-          <prop k="size_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.0006&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.001&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.0013&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.005&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.001&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.012&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.012&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.027&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.027&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
           <prop k="size_dd_field" v=""/>
           <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
+          <effect enabled="1" type="effectStack">
+            <effect type="dropShadow">
+              <prop k="blend_mode" v="13"/>
+              <prop k="blur_level" v="10"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="offset_angle" v="135"/>
+              <prop k="offset_distance" v="2"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="outerGlow">
+              <prop k="blend_mode" v="0"/>
+              <prop k="blur_level" v="3"/>
+              <prop k="color_type" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="single_color" v="255,255,255,255"/>
+              <prop k="spread" v="2"/>
+              <prop k="spread_unit" v="MM"/>
+              <prop k="spread_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0.5"/>
+            </effect>
+            <effect type="drawSource">
+              <prop k="blend_mode" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="innerShadow">
+              <prop k="blend_mode" v="13"/>
+              <prop k="blur_level" v="0"/>
+              <prop k="color" v="227,26,28,255"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="1"/>
+              <prop k="offset_angle" v="0"/>
+              <prop k="offset_distance" v="50"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+            <effect type="innerGlow">
+              <prop k="blend_mode" v="0"/>
+              <prop k="blur_level" v="0"/>
+              <prop k="color_type" v="0"/>
+              <prop k="draw_mode" v="2"/>
+              <prop k="enabled" v="1"/>
+              <prop k="single_color" v="227,26,28,255"/>
+              <prop k="spread" v="50"/>
+              <prop k="spread_unit" v="MM"/>
+              <prop k="spread_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="transparency" v="0"/>
+            </effect>
+          </effect>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="49">
@@ -6908,7 +7028,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
