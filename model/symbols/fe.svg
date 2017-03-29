@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    width="34.6875"
    height="25.3125"
    viewBox="0 0 34.6875 25.3125"
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,20 +39,27 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1063"
+     inkscape:window-height="648"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="9.3234568"
      inkscape:cx="17.34375"
-     inkscape:cy="12.65625"
+     inkscape:cy="26.349642"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
-  <path
-     style="fill:#000000"
-     d="m 4.6875,12.628443 0,-7.9687502 5.15625,0 c 3.958333,0 5.15625,0.3267045 5.15625,1.40625 0,1.015625 -1.041667,1.40625 -3.75,1.40625 -3.125,0 -3.75,0.3125 -3.75,1.875 0,1.5178582 0.625,1.8750002 3.28125,1.8750002 2.291666,0 3.28125,0.424107 3.28125,1.40625 0,0.982143 -0.989584,1.40625 -3.28125,1.40625 -3.125,0 -3.28125,0.15625 -3.28125,3.28125 0,2.291666 -0.4241072,3.28125 -1.40625,3.28125 -1.1397059,0 -1.40625,-1.510417 -1.40625,-7.96875 z m 13.125,0 0,-7.9687502 6.09375,0 c 4.791667,0 6.09375,0.3004807 6.09375,1.40625 0,1.0416667 -1.09375,1.40625 -4.21875,1.40625 -3.59375,0 -4.21875,0.2777778 -4.21875,1.875 0,1.5625002 0.625,1.8750002 3.75,1.8750002 2.708333,0 3.75,0.390625 3.75,1.40625 0,1.015625 -1.041667,1.40625 -3.75,1.40625 -3.125,0 -3.75,0.3125 -3.75,1.875 0,1.597222 0.625,1.875 4.21875,1.875 3.125,0 4.21875,0.364583 4.21875,1.40625 0,1.105769 -1.302083,1.40625 -6.09375,1.40625 l -6.09375,0 0,-7.96875 z"
-     id="path3338"
-     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:27.02550888px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     x="-0.48078164"
+     y="22.868368"
+     id="text2982"
+     sodipodi:linespacing="125%"
+     transform="scale(1.0250589,0.9755537)"><tspan
+       sodipodi:role="line"
+       id="tspan2984"
+       x="-0.48078164"
+       y="22.868368">FE</tspan></text>
 </svg>
