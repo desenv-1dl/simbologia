@@ -50,6 +50,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
+    
   <g
      id="g7418"
      transform="matrix(0.86538163,0,0,0.77051615,52.368806,13.762186)">
@@ -60,17 +61,17 @@
          inkscape:connector-curvature="0"
          id="path7253"
          d="m -50.02862,59.89933 0.133047,-22.703208"
-         style="fill:none;stroke:#000000;stroke-width:2.99804401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.99804401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <path
          inkscape:connector-curvature="0"
          id="path7255"
          d="M -51.387712,36.312235 -5.2436441,36.181144"
-         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <path
          inkscape:connector-curvature="0"
          id="path7257"
          d="m -6.7511918,36.279463 0,23.85858"
-         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <text
        transform="scale(1.2687277,0.7881912)"
@@ -78,9 +79,9 @@
        id="text7384"
        y="11.662483"
        x="-40.459515"
-       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;;fill-opacity:1;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          y="11.662483"
          x="-40.459515"
          id="tspan7386"
@@ -91,9 +92,9 @@
        id="text7384-0"
        y="11.662145"
        x="-23.075884"
-       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;fill-opacity:1;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          y="11.662145"
          x="-23.075884"
          id="tspan7386-6"
@@ -104,9 +105,9 @@
        id="text7384-2"
        y="11.662145"
        x="-31.623667"
-       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:31.52764893px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;fill-opacity:1;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          y="11.662145"
          x="-31.623667"
          id="tspan7386-61"

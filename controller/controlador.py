@@ -17,7 +17,9 @@ class Controlador(QObject):
         self.initCommands()
         
     def initCommands(self):
-        self.commands = {'open main interface': self.view2.showDialog, 
+        self.commands = {
+                        'open main interface': self.view2.showDialog, 
+                        'config functionCrs' : self.model.configFunctionCrs ,
                         'open interface to create database' : self.view3.showDialog,
                         'open interface military simbology': self.view1.showButton, 
                         'create database' : self.model.createDataBase,                         
@@ -29,7 +31,9 @@ class Controlador(QObject):
                         'set styles' : self.model.reloadLayersStyles, 
                         'upload error' : self.view2.msg,
                         'set current database': self.model.setCurrentSqlite,
-                        'created successfully': self.view3.msg}
+                        'created successfully': self.view3.msg,
+			            'disable src dynamic' : self.model.disableCrs
+                        }
     
     def runCommand(self, cmd, param1 = None):
         if param1:

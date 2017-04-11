@@ -7,9 +7,23 @@ from qgis.core import QgsDataSourceURI, QgsMapLayerRegistry, QgsVectorLayer, Qgs
 class Estilos(QObject):
     def __init__(self):
         QObject.__init__(self)
+        self.initVariables()
+        
+    def initVariables(self):
+        self.nameStyles = {
+                            'allied': 'allied',
+                            'enemy' : 'enemy',
+                            'location_command_a': 'location_command',
+                            'location_command_e': 'location_command',
+                            'observation_post_a': 'observation_post',
+                            'observation_post_e': 'observation_post',
+                            'service_installation_a': 'service_installation',
+                            'service_installation_e': 'service_installation',
+            
+                          }
      
     def setStylePath(self, t):
-        self.stylePath = os.path.join(os.path.dirname(__file__), 'templates', t+'.qml')
+        self.stylePath = os.path.join(os.path.dirname(__file__), 'templates', self.nameStyles[t]+'.qml')
         
     def getStylePath(self):
         return self.stylePath
@@ -57,7 +71,7 @@ class Estilos(QObject):
             for index in [ 2, 3, 4, 5, 10] : 
                 layer.setEditorWidgetV2Config(index, self.getConfigToFields()[i])
                 i+=1     
-        elif (layer.name() == 'Instalação_de_serviço'):
+        elif (layer.name() == u'Instalação_de_serviço'):
             layer.setEditorWidgetV2Config(2, self.getConfigToFields()[-1])
         
             

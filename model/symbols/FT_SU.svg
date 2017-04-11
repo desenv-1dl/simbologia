@@ -28,8 +28,7 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs6" />
+ 
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -51,7 +50,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <path
-     style="fill:#000000"
+     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
      d="m 5.625,12.65625 0,-8.90625 9.84375,0 9.84375,0 0,8.90625 c 0,8.28125 -0.131579,8.90625 -1.875,8.90625 -1.71875,0 -1.875,-0.625 -1.875,-7.5 l 0,-7.5 -6.5625,0 -6.5625,0 0,7.5 c 0,6.041666 -0.2734375,7.5 -1.40625,7.5 -1.1513158,0 -1.40625,-1.614583 -1.40625,-8.90625 z M 13.125,15 c 0,-5.9375 0.178571,-6.5625 1.875,-6.5625 1.696429,0 1.875,0.625 1.875,6.5625 0,5.9375 -0.178571,6.5625 -1.875,6.5625 -1.696429,0 -1.875,-0.625 -1.875,-6.5625 z"
      id="path3338"
      inkscape:connector-curvature="0" />
@@ -61,20 +60,20 @@
        inkscape:connector-curvature="0"
        id="path7253"
        d="M -48.49486,20.989823 -48.43738,3.4966345"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff" />
     <path
        inkscape:connector-curvature="0"
        id="path7255"
        d="M -49.944266,3.2595287 -30.010104,3.158521"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff" />
     <path
        inkscape:connector-curvature="0"
        id="path7257"
        d="m -31.518089,2.6142764 0,18.3834196"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff" />
     <text
        xml:space="preserve"
-       style="font-size:25.74460793px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
        x="-33.13327"
        y="26.932911"
        id="text7384"

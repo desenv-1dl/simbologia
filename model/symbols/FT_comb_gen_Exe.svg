@@ -60,17 +60,17 @@
        inkscape:connector-curvature="0"
        id="path7253"
        d="m -50.02862,59.89933 0.133047,-22.703208"
-       style="fill:none;stroke:#000000;stroke-width:2.99804401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.99804401;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7255"
        d="M -51.387712,36.312235 -5.2436441,36.181144"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7257"
        d="m -6.7511918,36.279463 0,23.85858"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
   <text
      xml:space="preserve"
@@ -84,5 +84,5 @@
        id="tspan7266"
        x="10.957974"
        y="23.31653"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">xxx</tspan></text>
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">xxx</tspan></text>
 </svg>

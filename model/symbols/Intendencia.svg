@@ -39,13 +39,8 @@
      inkscape:window-x="0"
      inkscape:window-y="312"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" /><defs
-     id="defs4"><style
-       type="text/css"
-       id="style6">
-    .fil0 {fill:#1F1A17}
-    .fnt0 {font-weight:normal;font-size:12.4996;font-family:'Arial'}
-   </style></defs><g
+     inkscape:current-layer="svg2" />
+     <g
      id="Camada_x0020_1"
      transform="matrix(4.3128257,0,0,2.7045425,-99.850483,-53.571392)"
      style="fill:#000000;stroke:#000000"><metadata
@@ -54,5 +49,5 @@
        y="34.473999"
        class="fil0 fnt0"
        id="text10"
-       style="font-size:12.49960041px;font-weight:normal;fill:#000000;stroke:#000000;font-family:Arial">I</text>
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff" >I</text>
 </g></svg>

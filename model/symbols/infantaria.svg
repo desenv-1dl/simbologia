@@ -54,11 +54,13 @@
        x2="59.875969"
        y2="52.241829"
        id="line10"
-       style="fill:#000000;stroke:#000000;stroke-width:0.94613546000000004" /><line
+       style="stroke-width:0.94613546000000004;stroke:param(outline) #ffffff" /><line
        class="fil0 str0"
        x1="59.877129"
        y1="7.6247911"
        x2="0.22989474"
        y2="52.305908"
        id="line12"
-       style="fill:#000000;stroke:#000000;stroke-width:0.94776607000000002" /></g></svg>
+       style="stroke-width:0.94776607000000002;stroke:param(outline) #ffffff" /></g>
+       </svg>
+       

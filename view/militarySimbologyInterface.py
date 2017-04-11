@@ -4,6 +4,7 @@ from PyQt4 import QtGui, uic, QtCore
 from qgis.utils import iface
 from PyQt4.QtCore import pyqtSlot, pyqtSignal
 from PyQt4.QtGui import QMessageBox, QFileDialog
+import time
 
 GUI, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'militarySimbologyInterface.ui'))

@@ -39,20 +39,16 @@
      inkscape:window-x="0"
      inkscape:window-y="312"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" /><defs
-     id="defs4"><style
-       type="text/css"
-       id="style6">
-    .fil0 {fill:#1F1A17}
-    .fnt0 {font-weight:normal;font-size:12.4996;font-family:'Arial'}
-   </style></defs><g
+     inkscape:current-layer="svg2" />
+     <g
      id="Camada_x0020_1"
      transform="matrix(2.821413,0,0,3.131083,-55.923269,-66.952475)"
-     style="fill:#000000;stroke:none"><metadata
+     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
+     ><metadata
        id="CorelCorpID_0Corel-Layer" /><text
        x="21.261"
        y="34.518902"
        class="fil0 fnt0"
        id="text10"
-       style="font-size:12.49960040999999933px;font-weight:normal;fill:#000000;font-family:Arial;stroke:none">MB</text>
+       style="font-size:12.49960040999999933px;font-weight:normal;font-family:Arial;stroke:param(outline) #ffffff; fill:param(outline) #ffffff">MB</text>
 </g></svg>

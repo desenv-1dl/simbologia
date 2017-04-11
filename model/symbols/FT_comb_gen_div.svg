@@ -54,23 +54,23 @@
      id="g8858"
      transform="matrix(0.93111176,0,0,0.95618555,52.632821,-0.13677324)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.75607705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.75607705;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M -52.8133,28.789524 -52.700862,6.0863158"
        id="path7253"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.7578752;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.7578752;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M -54.088984,5.186539 -15.092758,5.055448"
        id="path7255"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2.7578752;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.7578752;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m -16.479141,5.1088238 0,23.8585802"
        id="path7257"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:26.86810303px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:26.86810303px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;fill-opacity:1;font-family:Sans"
        x="-52.409756"
        y="23.042742"
        id="text7264"
@@ -80,6 +80,6 @@
          id="tspan7266"
          x="-52.409756"
          y="23.042742"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">xx</tspan></text>
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">xx</tspan></text>
   </g>
 </svg>

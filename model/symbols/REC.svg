@@ -52,7 +52,7 @@
      inkscape:current-layer="svg2" />
   <text
      xml:space="preserve"
-     style="font-size:22.21905708px;font-style:normal;font-weight:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     style="font-size:22.21905708px;font-style:normal;font-weight:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:param(outline) #ffffff;fill-opacity:1;stroke:param(outline) #ffffff;font-family:Sans"
      x="1.1211504"
      y="20.956865"
      id="text3020"
@@ -64,3 +64,4 @@
        y="20.956865"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;font-family:Arial;-inkscape-font-specification:Arial">Rec</tspan></text>
 </svg>
+

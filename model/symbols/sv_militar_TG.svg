@@ -60,7 +60,7 @@
        sodipodi:cy="6.4909959"
        sodipodi:cx="-38.493114"
        id="path2988"
-       style="fill:none;stroke:#000000"
+       style="fill:none;stroke:param(outline) #ffffff;"
        sodipodi:type="arc" />
     <path
        transform="translate(7.6986229,8.6043432)"
@@ -70,7 +70,7 @@
        sodipodi:cy="-1.9623941"
        sodipodi:cx="-46.493645"
        id="path2990"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:param(outline) #ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc" />
     <path
        transform="translate(-7.6986229,-37.587394)"
@@ -80,7 +80,8 @@
        sodipodi:cy="44.304821"
        sodipodi:cx="-30.945444"
        id="path2992"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:param(outline) #ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc" />
   </g>
 </svg>
+

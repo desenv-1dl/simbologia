@@ -26,10 +26,10 @@ class IconButtonInterface(QObject):
         if b == 'True':            
             iface.digitizeToolBar().addAction(self.getIconButton())
         else:
-           iface.digitizeToolBar().removeAction(self.getIconButton()) 
+            iface.digitizeToolBar().removeAction(self.getIconButton()) 
     
     def pressedIconButton(self):
-        self.getController().runCommand('open main interface')        
+        self.getController().runCommand('open main interface')
     
     def setIconButton(self, i):
         self.IconButton = i

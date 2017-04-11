@@ -51,12 +51,12 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1.04923785px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
      d="m 0.06947509,14.237288 34.28649791,0"
      id="path2986"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1.21155775px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
      d="m 17.863821,2.2804564 0.01809,25.5667886"
      id="path2988"
      inkscape:connector-curvature="0"

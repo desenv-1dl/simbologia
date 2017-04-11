@@ -46,7 +46,7 @@
     .str0 {stroke:#1F1A17;stroke-width:0.9}
     .fil0 {fill:none}
    </style></defs><line
-     style="fill:#000000;stroke:#000000;stroke-width:0.94776607000000002"
+     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
      id="line12"
      y2="52.305908"
      x2="0.22989474"
@@ -59,6 +59,6 @@
      height="25.585463"
      width="42.247692"
      id="rect3045"
-     style="fill:none;stroke:#000000;stroke-width:3.02329874;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:param(outline) #ffffff;stroke-width:3.02329874;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      inkscape:transform-center-x="-97.73453"
      inkscape:transform-center-y="3.608086" /></svg>

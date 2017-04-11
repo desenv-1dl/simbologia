@@ -57,20 +57,20 @@
        inkscape:connector-curvature="0"
        id="path7253"
        d="m -44.710686,21.514208 0.08841,-17.4931886"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7255"
        d="M -46.136665,3.4204125 -15.474373,3.3194048"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7257"
        d="m -16.992098,3.5070181 0,18.3834209"
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        xml:space="preserve"
-       style="font-size:25.74460793px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:25.74460793px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;;fill-opacity:1;font-family:Sans"
        x="-30.299417"
        y="27.680218"
        id="text7384"
@@ -83,7 +83,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">I</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:25.74460793px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:25.74460793px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;;fill-opacity:1;font-family:Sans"
        x="-23.084307"
        y="27.679941"
        id="text7384-2"

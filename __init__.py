@@ -13,7 +13,7 @@ def version():
     return "Version 0.1"
 
 def classFactory(iface):
-    return Main(iface)
+    return Main()
 
 def qgisMinimumVersion():
     return "2.0"

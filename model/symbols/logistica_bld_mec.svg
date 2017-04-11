@@ -56,7 +56,7 @@
     <rect
        inkscape:transform-center-y="3.0865996"
        inkscape:transform-center-x="-88.003549"
-       style="fill:none;stroke:#000000;stroke-width:2.9000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:param(outline)#ffffff;stroke-width:2.9000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3045"
        width="41.965046"
        height="23.699682"
@@ -69,12 +69,13 @@
        id="text4031"
        y="23.122894"
        x="49.111851"
-       style="font-size:17.29426575px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:17.29426575px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:param(outline)#ffffff;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         style="fill:param(outline)#ffffff;stroke:param(outline)#ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          y="23.122894"
          x="49.111851"
          id="tspan4033"
          sodipodi:role="line">Log</tspan></text>
   </g>
 </svg>
+

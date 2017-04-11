@@ -50,9 +50,10 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
+    
   <text
      xml:space="preserve"
-     style="font-size:23.02045059px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     style="font-size:23.02045059px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
      x="5.4470468"
      y="22.914419"
      id="text3210"

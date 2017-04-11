@@ -52,7 +52,7 @@
      inkscape:current-layer="svg2" />
   <text
      xml:space="preserve"
-     style="font-size:21.49273109px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+     style="font-size:21.49273109px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;stroke:param(outline) #ffffff; fill:param(outline) #ffffff;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
      x="2.3267739"
      y="19.082802"
      id="text2982"
@@ -63,3 +63,4 @@
        x="2.3267739"
        y="19.082802">PA</tspan></text>
 </svg>
+

@@ -57,17 +57,17 @@
        inkscape:connector-curvature="0"
        id="path7253"
        d="M -40.738304,25.753573 -40.633612,4.0450932"
-       style="fill:none;stroke:#000000;stroke-width:2.60053897;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.60053897;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7255"
        d="M -41.926108,3.1847396 -5.6162639,3.0593923"
-       style="fill:none;stroke:#000000;stroke-width:2.60223556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.60223556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7257"
        d="m -6.9071414,3.1104295 0,22.8132295"
-       style="fill:none;stroke:#000000;stroke-width:2.60223556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;stroke-width:2.60223556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        transform="scale(0.87842161,1.1384055)"
        sodipodi:linespacing="125%"
@@ -76,7 +76,7 @@
        x="-32.756634"
        style="font-size:25.35181046px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
          y="20.183527"
          x="-32.756634"
          id="tspan7266"

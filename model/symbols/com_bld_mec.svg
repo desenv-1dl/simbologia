@@ -60,12 +60,13 @@
        height="23.699682"
        width="41.965046"
        id="rect3045"
-       style="fill:none;stroke:#000000;stroke-width:2.9000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:param(outline)#ffffff;stroke-width:2.9000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path4020"
        d="M 1.2076269,-1.0566737 23.548729,23.699682 25.209216,12.378179 46.946504,34.26642"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:none;stroke:param(outline)#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
+

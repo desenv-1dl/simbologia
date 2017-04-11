@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.14.13-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.13-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="Hidden" name="pkuid">
       <widgetv2config fieldEditable="1" labelOnTop="0"/>
@@ -8,7 +8,10 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="1"/>
     </edittype>
     <edittype widgetv2type="ValueRelation" name="Atividades">
-      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170410034828470" Value="code_name" labelOnTop="1" AllowMulti="0"/>
+      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170406130825387" Value="code_name" labelOnTop="1" AllowMulti="0"/>
+    </edittype>
+    <edittype widgetv2type="Color" name="Cor">
+      <widgetv2config fieldEditable="1" labelOnTop="1"/>
     </edittype>
   </edittypes>
   <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
@@ -72,20 +75,16 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="183,165,95,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/circulo.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/circulo.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="0"/>
-          <prop k="size_dd_active" v="1"/>
-          <prop k="size_dd_expression" v="if( &quot;Tipo de operação&quot; in ('0', '1'),&#xa;(case   &#xa;when (&quot;Tipo de operação&quot;  is '0') then&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '24') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '23') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '22') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '21') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '20') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '19') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '18') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '17') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '16') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '15') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '14') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '13') then 8032.53400645&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '12') then 5048.38031132&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '11') then 5048.38031132&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '10') then 3982.61113448&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '9') then 3982.61113448&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '8') then 398.261113448&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '7') then  3982.61113448&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '6') then 1504.41733277&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '5') then 1009.67606226&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '4') then 398.261113448&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '3') then 302.902818679&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '2') then 207.54452391&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '1') then 100.967606226&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '0') then 100.967606226&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;else&#xa;(&#xa;case&#xa;when (&quot;Tipo de operação&quot;  is '1') then&#xa;case  &#xa;when ( &quot;Escalões&quot; is '24') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '23') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '22') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '21') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '20') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '19') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '18') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '17') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '16') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '15') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '14') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '13') then 12508.7645492&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '12') then 9002.94488851&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '11') then 9002.94488851&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '10') then 9002.94488851&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '9') then 8629.36474548&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '8') then 4908.14752489&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '7') then 9002.94488851&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '6') then 8629.36474548&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '5') then  4908.14752489&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '4') then  4908.14752489&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '3') then 796.522226897&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '2') then 796.522226897&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '1') then 225.494320572&#xa;else&#xa;(&#xa;case  &#xa;when ( &quot;Escalões&quot;  is '0') then 225.494320572&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;end&#xa;)&#xa;end)&#xa;,&#xa;0)"/>
-          <prop k="size_dd_field" v=""/>
-          <prop k="size_dd_useexpr" v="1"/>
+          <prop k="size" v="15"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -96,18 +95,22 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/adm.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/adm.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="255,255,255,255"/>
+          <prop k="outline_dd_active" v="1"/>
+          <prop k="outline_dd_expression" v=""/>
+          <prop k="outline_dd_field" v="Cor"/>
+          <prop k="outline_dd_useexpr" v="0"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -116,7 +119,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe3_combustiveis_lubrifcantes.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe3_combustiveis_lubrifcantes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -136,7 +139,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe4_mat_construcao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe4_mat_construcao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -156,7 +159,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe5_armamento_municao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe5_armamento_municao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -176,7 +179,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/Classe6_eng_cart.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Classe6_eng_cart.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -196,7 +199,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe7_com_informatica.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe7_com_informatica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -216,7 +219,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe8_saude.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe8_saude.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -236,7 +239,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe9_Motomecanizacao_aviacao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe9_Motomecanizacao_aviacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -256,7 +259,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe10_outros.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe10_outros.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -276,7 +279,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/coleta_mortos.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/coleta_mortos.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -296,7 +299,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/controle_municao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/controle_municao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -316,7 +319,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/agua_potavel.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/agua_potavel.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -336,7 +339,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/construcao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/construcao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -356,7 +359,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/contraincendio.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/contraincendio.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -376,7 +379,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/comando_controle.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/comando_controle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -396,7 +399,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/deposito.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/deposito.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -416,7 +419,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/descontaminacao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/descontaminacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -436,7 +439,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/embarque_Desembarque.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/embarque_Desembarque.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -456,7 +459,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/estado_maior.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/estado_maior.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -476,7 +479,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/evacuacao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/evacuacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -496,7 +499,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/extraviados.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/extraviados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -516,7 +519,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/hospital_Vet.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/hospital_Vet.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -536,7 +539,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/assistencia_pessoal.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/assistencia_pessoal.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -556,7 +559,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/hospital.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/hospital.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -576,7 +579,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/lavanderia.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/lavanderia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -596,7 +599,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/logistica.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/logistica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -616,7 +619,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/manutencao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/manutencao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -636,7 +639,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/manutencao_salvamento.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/manutencao_salvamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -656,7 +659,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/mao_de_obra.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/mao_de_obra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -676,7 +679,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/Prisioneiro_guerra.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Prisioneiro_guerra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -696,7 +699,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/prisao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/prisao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -716,7 +719,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/recompletamento.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/recompletamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -736,7 +739,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/recreacao.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/recreacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -756,7 +759,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/assuntos_civis.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/assuntos_civis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -776,7 +779,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/remocao_granadas_bombas.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/remocao_granadas_bombas.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -796,7 +799,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/repouso.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/repouso.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -816,7 +819,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/reuniao_extraviados.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/reuniao_extraviados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -836,7 +839,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/salvados.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/salvados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -856,7 +859,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/sepultamento.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/sepultamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -876,7 +879,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/suprimento_transporte.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_transporte.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -896,7 +899,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/suprimento.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -916,7 +919,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/suprimento_artigos_reembolsaveis.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_artigos_reembolsaveis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -936,7 +939,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/suprimento_material_belico.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_material_belico.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -956,7 +959,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/suprimento_outras_classes.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_outras_classes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -976,7 +979,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/banho.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/banho.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -996,7 +999,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/transito.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/transito.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1016,7 +1019,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/cemiterio.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cemiterio.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1036,7 +1039,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/civis.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/civis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1056,7 +1059,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe1_subsistencia.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe1_subsistencia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1076,7 +1079,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="../.qgis2/python/plugins/simbologia/model/symbols/classe2_intendencia.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe2_intendencia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1260,7 +1263,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
