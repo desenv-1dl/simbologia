@@ -8,7 +8,7 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="1"/>
     </edittype>
     <edittype widgetv2type="ValueRelation" name="Atividades">
-      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170406130825387" Value="code_name" labelOnTop="1" AllowMulti="0"/>
+      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170412071416744" Value="code_name" labelOnTop="1" AllowMulti="0"/>
     </edittype>
     <edittype widgetv2type="Color" name="Cor">
       <widgetv2config fieldEditable="1" labelOnTop="1"/>
@@ -80,11 +80,19 @@
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_dd_active" v="1"/>
+          <prop k="outline_dd_expression" v=""/>
+          <prop k="outline_dd_field" v="Cor"/>
+          <prop k="outline_dd_useexpr" v="0"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="15"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1504.41733277&#xa;,&#xa;&#xa;0.01352237430165558&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>

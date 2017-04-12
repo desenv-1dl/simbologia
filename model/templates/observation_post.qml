@@ -1,11 +1,14 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.14.11-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.13-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="Hidden" name="pkuid">
       <widgetv2config fieldEditable="1" labelOnTop="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="Nome">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="1"/>
+    </edittype>
+    <edittype widgetv2type="Color" name="Cor">
+      <widgetv2config fieldEditable="1" labelOnTop="1"/>
     </edittype>
   </edittypes>
   <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
@@ -15,18 +18,26 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="95,141,91,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="{path}triangulo.svg"/>
+          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/triangulo.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_dd_active" v="1"/>
+          <prop k="outline_dd_expression" v=""/>
+          <prop k="outline_dd_field" v="Cor"/>
+          <prop k="outline_dd_useexpr" v="0"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="15"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1504.41733277&#xa;,&#xa;&#xa;0.01352237430165558&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -201,7 +212,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
