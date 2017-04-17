@@ -18,7 +18,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="95,141,91,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/triangulo.svg"/>
+          <prop k="name" v="{path}triangulo.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>

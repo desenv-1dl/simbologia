@@ -153,7 +153,7 @@
           <prop k="fill_dd_field" v=""/>
           <prop k="fill_dd_useexpr" v="1"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/ret.svg"/>
+          <prop k="name" v="{path}ret.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -210,7 +210,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/ajudancia_geral.svg"/>
+          <prop k="name" v="{path}ajudancia_geral.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -296,7 +296,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/aviação.svg"/>
+          <prop k="name" v="{path}aviação.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -382,7 +382,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cacador.svg"/>
+          <prop k="name" v="{path}cacador.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -468,7 +468,7 @@
           <prop k="angle" v="358"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cavalaria.svg"/>
+          <prop k="name" v="{path}cavalaria.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -554,7 +554,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cav_bld.svg"/>
+          <prop k="name" v="{path}cav_bld.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -644,7 +644,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cav_mec.svg"/>
+          <prop k="name" v="{path}cav_mec.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -730,7 +730,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/ccbn.svg"/>
+          <prop k="name" v="{path}ccbn.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -816,7 +816,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/comunicacoes.svg"/>
+          <prop k="name" v="{path}comunicacoes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -902,7 +902,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/dqbn.svg"/>
+          <prop k="name" v="{path}dqbn.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -988,7 +988,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/engenharia.svg"/>
+          <prop k="name" v="{path}engenharia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1074,7 +1074,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/especial.svg"/>
+          <prop k="name" v="{path}especial.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1160,7 +1160,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/aopio_desembarque.svg"/>
+          <prop k="name" v="{path}aopio_desembarque.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1246,7 +1246,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/ancora.svg"/>
+          <prop k="name" v="{path}ancora.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1332,7 +1332,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/financas.svg"/>
+          <prop k="name" v="{path}financas.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1418,7 +1418,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/fe.svg"/>
+          <prop k="name" v="{path}fe.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1504,7 +1504,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/fronteira.svg"/>
+          <prop k="name" v="{path}fronteira.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1590,7 +1590,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/guerra_eletronica.svg"/>
+          <prop k="name" v="{path}guerra_eletronica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -1676,7 +1676,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/helice.svg"/>
+          <prop k="name" v="{path}helice.svg"/>
           <prop k="offset" v="0,-0.0001"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0008&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',-0.0006)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',-0.0009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',-0.0004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',-0.005)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -1766,7 +1766,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/infantaria.svg"/>
+          <prop k="name" v="{path}infantaria.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then  concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',-0.0006)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',-0.0009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',-0.0004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',-0.005)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -1856,7 +1856,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/inf_bld.svg"/>
+          <prop k="name" v="{path}inf_bld.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' and  &quot;Armas, Quadros e Serviços&quot; = '26' then concat(0,',',-0.00009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then  concat(0,',',-0.00009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' and  &quot;Armas, Quadros e Serviços&quot; = '26' then concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',-0.00008)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',-0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',-0.0006)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',-0.0009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',-0.0004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',-0.002)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',-0.004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',-0.005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',-0.005)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -1946,7 +1946,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/inf_aeronautica.svg"/>
+          <prop k="name" v="{path}inf_aeronautica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2032,7 +2032,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Intendencia.svg"/>
+          <prop k="name" v="{path}Intendencia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="'0'|| ',' || tostring(-0.15*(case  &#xa;when &quot;Escalões&quot; = '0' then 0.0007&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0007&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end))"/>
@@ -2122,7 +2122,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/armamento_municao.svg"/>
+          <prop k="name" v="{path}armamento_municao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -2208,7 +2208,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/justica_militar.svg"/>
+          <prop k="name" v="{path}justica_militar.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2294,7 +2294,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/T.svg"/>
+          <prop k="name" v="{path}T.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2380,7 +2380,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/matbel.svg"/>
+          <prop k="name" v="{path}matbel.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2466,7 +2466,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/motomecanizacao.svg"/>
+          <prop k="name" v="{path}motomecanizacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2552,7 +2552,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/policia_aeronautica.svg"/>
+          <prop k="name" v="{path}policia_aeronautica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2638,7 +2638,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/policia_Exercito.svg"/>
+          <prop k="name" v="{path}policia_Exercito.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2724,7 +2724,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/pm.svg"/>
+          <prop k="name" v="{path}pm.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2810,7 +2810,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/postal.svg"/>
+          <prop k="name" v="{path}postal.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2896,7 +2896,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/saude.svg"/>
+          <prop k="name" v="{path}saude.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -2982,7 +2982,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Sv_policia_FN.svg"/>
+          <prop k="name" v="{path}Sv_policia_FN.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -3068,7 +3068,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/art_antiaerea.svg"/>
+          <prop k="name" v="{path}art_antiaerea.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3158,7 +3158,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/sv_militar_TG.svg"/>
+          <prop k="name" v="{path}sv_militar_TG.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -3244,7 +3244,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/transporte.svg"/>
+          <prop k="name" v="{path}transporte.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -3330,7 +3330,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/veterinaria.svg"/>
+          <prop k="name" v="{path}veterinaria.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -3416,7 +3416,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/aeronaval.svg"/>
+          <prop k="name" v="{path}aeronaval.svg"/>
           <prop k="offset" v="0,0.00016"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00016)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00016)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0004)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00065)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.0018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.0007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.015)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3506,7 +3506,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/aeromovel.svg"/>
+          <prop k="name" v="{path}aeromovel.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00027)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00027)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.00067)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00093)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.0013)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0046)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.012)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.0013)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.012)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.012)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.025)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3596,7 +3596,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/aeroterrestre.svg"/>
+          <prop k="name" v="{path}aeroterrestre.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.012)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.012)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3686,7 +3686,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/sar.svg"/>
+          <prop k="name" v="{path}sar.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3776,7 +3776,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/anfibio.svg"/>
+          <prop k="name" v="{path}anfibio.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3866,7 +3866,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/veterinaria.svg"/>
+          <prop k="name" v="{path}veterinaria.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -3956,7 +3956,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cao_de_guerra.svg"/>
+          <prop k="name" v="{path}cao_de_guerra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4046,7 +4046,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/art_antiaerea_autodefesa.svg"/>
+          <prop k="name" v="{path}art_antiaerea_autodefesa.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -4132,7 +4132,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/colonizacao.svg"/>
+          <prop k="name" v="{path}colonizacao.svg"/>
           <prop k="offset" v="0,-0.001"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4222,7 +4222,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/com_bld_mec.svg"/>
+          <prop k="name" v="{path}com_bld_mec.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4312,7 +4312,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/logistica_bld_mec.svg"/>
+          <prop k="name" v="{path}logistica_bld_mec.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4402,7 +4402,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/eng_bld_mec.svg"/>
+          <prop k="name" v="{path}eng_bld_mec.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4492,7 +4492,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/fluvial.svg"/>
+          <prop k="name" v="{path}fluvial.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4582,7 +4582,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/guerrilha.svg"/>
+          <prop k="name" v="{path}guerrilha.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4672,7 +4672,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/helitransporte.svg"/>
+          <prop k="name" v="{path}helitransporte.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4762,7 +4762,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/montanha.svg"/>
+          <prop k="name" v="{path}montanha.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4852,7 +4852,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Op_Especiais.svg"/>
+          <prop k="name" v="{path}Op_Especiais.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -4942,7 +4942,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/op_pscicologicas.svg"/>
+          <prop k="name" v="{path}op_pscicologicas.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -5032,7 +5032,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/art_antiaerea_AP.svg"/>
+          <prop k="name" v="{path}art_antiaerea_AP.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -5118,7 +5118,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/pqd.svg"/>
+          <prop k="name" v="{path}pqd.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00016)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00016)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0003)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.0006)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.0015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0025)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.0006)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.007)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.01)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.01)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.015)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.015)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -5208,7 +5208,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/REC.svg"/>
+          <prop k="name" v="{path}REC.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -5294,7 +5294,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/SAR_solo.svg"/>
+          <prop k="name" v="{path}SAR_solo.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -5384,7 +5384,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/selva.svg"/>
+          <prop k="name" v="{path}selva.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="case  &#xa;when &quot;Escalões&quot; = '0' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then concat(0,',',0.00023)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then concat(0,',',0.0005)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then concat(0,',',0.00068)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then concat(0,',',0.00085)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then concat(0,',',0.00235)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then concat(0,',',0.0034)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then concat(0,',',0.0095)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then concat(0,',',0.000953)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then concat(0,',',0.009)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then concat(0,',',0.0107)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then concat(0,',',0.0099)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then concat(0,',',0.018)&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then concat(0,',',0.018)&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end"/>
@@ -5474,7 +5474,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/esquadra.svg"/>
+          <prop k="name" v="{path}esquadra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="concat(0,',',-0.00001)"/>
@@ -5564,7 +5564,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Grupo_combate.svg"/>
+          <prop k="name" v="{path}Grupo_combate.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_dd_active" v="1"/>
           <prop k="offset_dd_expression" v="concat(0,',',-0.00001)"/>
@@ -5654,7 +5654,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/pelotao.svg"/>
+          <prop k="name" v="{path}pelotao.svg"/>
           <prop k="offset" v="0,-1e-05"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="concat(0,',',-0.00001)"/>
@@ -5744,7 +5744,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/pelotao.svg"/>
+          <prop k="name" v="{path}pelotao.svg"/>
           <prop k="offset" v="0,-1e-05"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -5830,7 +5830,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Companhia.svg"/>
+          <prop k="name" v="{path}Companhia.svg"/>
           <prop k="offset" v="0,-0.0018"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -5912,7 +5912,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Companhia.svg"/>
+          <prop k="name" v="{path}Companhia.svg"/>
           <prop k="offset" v="0,-0.0043"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -5994,7 +5994,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/artilharia.svg"/>
+          <prop k="name" v="{path}artilharia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6080,7 +6080,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Batalhao.svg"/>
+          <prop k="name" v="{path}Batalhao.svg"/>
           <prop k="offset" v="0,0.002"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6162,7 +6162,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/grupamento_regimento.svg"/>
+          <prop k="name" v="{path}grupamento_regimento.svg"/>
           <prop k="offset" v="0,-0.0001"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6244,7 +6244,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_SU.svg"/>
+          <prop k="name" v="{path}FT_SU.svg"/>
           <prop k="offset" v="0,-0.002"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6326,7 +6326,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_batalhao.svg"/>
+          <prop k="name" v="{path}FT_batalhao.svg"/>
           <prop k="offset" v="0,-0.018"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6408,7 +6408,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_batalhao.svg"/>
+          <prop k="name" v="{path}FT_batalhao.svg"/>
           <prop k="offset" v="0,-0.018"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6490,7 +6490,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_Regimento.svg"/>
+          <prop k="name" v="{path}FT_Regimento.svg"/>
           <prop k="offset" v="0,-0.022"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="'0'|| ',' || tostring(-1.1*(case  &#xa;when &quot;Escalões&quot; = '0' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '1' then 0.0009&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '2' then 0.002&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '3' then 0.003&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '4' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '5' then 0.01&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '6' then 0.015&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '7' then 0.038&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '8' then 0.004&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '9' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '10' then 0.04&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '11' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '12' then 0.05&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '13' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '14' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '15' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '16' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '17' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '18' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '19' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '20' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '21' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '22' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '23' then 0.08&#xa;else&#xa;(&#xa;case  &#xa;when &quot;Escalões&quot; = '24' then 0.08&#xa;else&#xa;0&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end&#xa;)&#xa;end))"/>
@@ -6580,7 +6580,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Brigada.svg"/>
+          <prop k="name" v="{path}Brigada.svg"/>
           <prop k="offset" v="0,0.011"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6662,7 +6662,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Divisao_exercito.svg"/>
+          <prop k="name" v="{path}Divisao_exercito.svg"/>
           <prop k="offset" v="0,0.008"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6744,7 +6744,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/corpo_exercito.svg"/>
+          <prop k="name" v="{path}corpo_exercito.svg"/>
           <prop k="offset" v="0,0.008"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6826,7 +6826,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_comb_gen_bda.svg"/>
+          <prop k="name" v="{path}FT_comb_gen_bda.svg"/>
           <prop k="offset" v="0,-0.037"/>
           <prop k="offset_dd_active" v="0"/>
           <prop k="offset_dd_expression" v="concat(0,',',-0.012)"/>
@@ -6912,7 +6912,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/art_autopropulsada.svg"/>
+          <prop k="name" v="{path}art_autopropulsada.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -6998,7 +6998,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_comb_gen_div.svg"/>
+          <prop k="name" v="{path}FT_comb_gen_div.svg"/>
           <prop k="offset" v="0,-0.037"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7080,7 +7080,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/FT_comb_gen_Exe.svg"/>
+          <prop k="name" v="{path}FT_comb_gen_Exe.svg"/>
           <prop k="offset" v="0,-0.037"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7162,7 +7162,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/forca_componente_gen_exe.svg"/>
+          <prop k="name" v="{path}forca_componente_gen_exe.svg"/>
           <prop k="offset" v="0,-0.032"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7244,7 +7244,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/comando_combinado_gen_exe.svg"/>
+          <prop k="name" v="{path}comando_combinado_gen_exe.svg"/>
           <prop k="offset" v="0,-0.003"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7326,7 +7326,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/teatro_operacoes.svg"/>
+          <prop k="name" v="{path}teatro_operacoes.svg"/>
           <prop k="offset" v="0,-0.003"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7408,7 +7408,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/base_logistica_RM.svg"/>
+          <prop k="name" v="{path}base_logistica_RM.svg"/>
           <prop k="offset" v="0,0.025"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7490,7 +7490,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Cmdo_logistico_FTC.svg"/>
+          <prop k="name" v="{path}Cmdo_logistico_FTC.svg"/>
           <prop k="offset" v="0,0.025"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7572,7 +7572,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/regiao_militar.svg"/>
+          <prop k="name" v="{path}regiao_militar.svg"/>
           <prop k="offset" v="0,0.018"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7654,7 +7654,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Cmdo_logistico_combinado_TO.svg"/>
+          <prop k="name" v="{path}Cmdo_logistico_combinado_TO.svg"/>
           <prop k="offset" v="0,0.008"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -7736,7 +7736,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/art_autopropulsada2.svg"/>
+          <prop k="name" v="{path}art_autopropulsada2.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>

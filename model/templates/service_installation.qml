@@ -8,7 +8,7 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="1"/>
     </edittype>
     <edittype widgetv2type="ValueRelation" name="Atividades">
-      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170412071416744" Value="code_name" labelOnTop="1" AllowMulti="0"/>
+      <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="code" Layer="domain_activities20170417051041947" Value="code_name" labelOnTop="1" AllowMulti="0"/>
     </edittype>
     <edittype widgetv2type="Color" name="Cor">
       <widgetv2config fieldEditable="1" labelOnTop="1"/>
@@ -75,7 +75,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="183,165,95,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/circulo.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/circulo.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -103,7 +103,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/adm.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/adm.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -117,6 +117,10 @@
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -127,7 +131,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe3_combustiveis_lubrifcantes.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe3_combustiveis_lubrifcantes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -137,8 +141,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -147,7 +155,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe4_mat_construcao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe4_mat_construcao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -157,8 +165,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -167,7 +179,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe5_armamento_municao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe5_armamento_municao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -177,8 +189,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -187,7 +203,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Classe6_eng_cart.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/Classe6_eng_cart.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -197,8 +213,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -207,7 +227,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe7_com_informatica.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe7_com_informatica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -217,8 +237,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -227,7 +251,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe8_saude.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe8_saude.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -237,8 +261,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -247,7 +275,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe9_Motomecanizacao_aviacao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe9_Motomecanizacao_aviacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -257,8 +285,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -267,7 +299,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe10_outros.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe10_outros.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -277,8 +309,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -287,7 +323,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/coleta_mortos.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/coleta_mortos.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -297,8 +333,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -307,7 +347,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/controle_municao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/controle_municao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -317,8 +357,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -327,7 +371,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/agua_potavel.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/agua_potavel.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -337,8 +381,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -347,7 +395,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/construcao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/construcao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -357,8 +405,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -367,7 +419,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/contraincendio.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/contraincendio.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -377,8 +429,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -387,7 +443,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/comando_controle.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/comando_controle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -397,8 +453,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -407,7 +467,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/deposito.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/deposito.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -417,8 +477,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -427,7 +491,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/descontaminacao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/descontaminacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -437,8 +501,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -447,7 +515,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/embarque_Desembarque.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/embarque_Desembarque.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -457,8 +525,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -467,7 +539,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/estado_maior.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/estado_maior.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -477,8 +549,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -487,7 +563,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/evacuacao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/evacuacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -497,8 +573,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -507,7 +587,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/extraviados.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/extraviados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -517,8 +597,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -527,7 +611,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/hospital_Vet.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/hospital_Vet.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -537,8 +621,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -547,7 +635,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/assistencia_pessoal.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/assistencia_pessoal.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -557,8 +645,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -567,7 +659,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/hospital.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/hospital.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -577,8 +669,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -587,7 +683,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/lavanderia.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/lavanderia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -597,8 +693,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -607,7 +707,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/logistica.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/logistica.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -617,8 +717,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -627,7 +731,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/manutencao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/manutencao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -637,8 +741,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -647,7 +755,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/manutencao_salvamento.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/manutencao_salvamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -657,8 +765,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -667,7 +779,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/mao_de_obra.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/mao_de_obra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -677,8 +789,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -687,7 +803,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/Prisioneiro_guerra.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/Prisioneiro_guerra.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -697,8 +813,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -707,7 +827,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/prisao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/prisao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -717,8 +837,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -727,7 +851,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/recompletamento.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/recompletamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -737,8 +861,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -747,7 +875,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/recreacao.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/recreacao.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -757,8 +885,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -767,7 +899,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/assuntos_civis.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/assuntos_civis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -777,8 +909,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -787,7 +923,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/remocao_granadas_bombas.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/remocao_granadas_bombas.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -797,8 +933,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -807,7 +947,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/repouso.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/repouso.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -817,8 +957,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -827,7 +971,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/reuniao_extraviados.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/reuniao_extraviados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -837,8 +981,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -847,7 +995,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/salvados.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/salvados.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -857,8 +1005,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -867,7 +1019,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/sepultamento.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/sepultamento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -877,8 +1029,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -887,7 +1043,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_transporte.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/suprimento_transporte.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -897,8 +1053,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -907,7 +1067,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/suprimento.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -917,8 +1077,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -927,7 +1091,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_artigos_reembolsaveis.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/suprimento_artigos_reembolsaveis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -937,8 +1101,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -947,7 +1115,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_material_belico.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/suprimento_material_belico.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -957,8 +1125,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -967,7 +1139,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/suprimento_outras_classes.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/suprimento_outras_classes.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -977,8 +1149,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -987,7 +1163,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/banho.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/banho.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -997,8 +1173,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -1007,7 +1187,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/transito.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/transito.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1017,8 +1197,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -1027,7 +1211,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/cemiterio.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/cemiterio.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1037,8 +1221,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -1047,7 +1235,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/civis.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/civis.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1057,8 +1245,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -1067,7 +1259,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe1_subsistencia.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe1_subsistencia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1077,8 +1269,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;729.210489412&#xa;,&#xa;&#xa;0.00655446927374&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
@@ -1087,7 +1283,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="/root/.qgis2/python/plugins/simbologia/model/symbols/classe2_intendencia.svg"/>
+          <prop k="name" v="/home/medina/.qgis2/python/plugins/simbologia/model/symbols/classe2_intendencia.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1097,8 +1293,12 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
           <prop k="size" v="2"/>
+          <prop k="size_dd_active" v="1"/>
+          <prop k="size_dd_expression" v="if( getCrs() is 0, &#xa;&#xa;1907.16589539&#xa;,&#xa;&#xa;0.0171424581006&#xa;&#xa;)"/>
+          <prop k="size_dd_field" v=""/>
+          <prop k="size_dd_useexpr" v="1"/>
           <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
