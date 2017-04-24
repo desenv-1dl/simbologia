@@ -52,7 +52,7 @@
      inkscape:current-layer="svg2" />
   <text
      xml:space="preserve"
-     style="font-size:22.32357025px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     style="font-size:22.32357025px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:param(outine) #ffffff;fill-opacity:1;stroke:none;font-family:Sans"
      x="2.4217143"
      y="22.808136"
      id="text4828"
@@ -62,5 +62,5 @@
        id="tspan4830"
        x="2.4217143"
        y="22.808136"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Tran</tspan></text>
+       style="fill:param(outline) #ffffff;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Tran</tspan></text>
 </svg>
