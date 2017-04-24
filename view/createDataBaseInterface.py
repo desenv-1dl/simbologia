@@ -73,6 +73,9 @@ class CreateDataBaseInterface(QtGui.QDialog, FORM_CLASS):
         self.name = None
         self.folder = None
         self.epsg = None
+	self.folderDestinyLineEdit.clear() 
+	self.SRCLineEdit.clear()
+	self.fileNameLineEdit.clear()
             
     @pyqtSlot(bool)
     def on_selectFolderButton_clicked(self):

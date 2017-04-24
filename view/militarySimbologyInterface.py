@@ -62,6 +62,8 @@ class MilitarySimbologyInterface(QtGui.QDockWidget, GUI):
     @pyqtSlot(bool)
     def on_locateStyleButton_clicked(self):
         self.getController().runCommand('set styles')
-  
 
-                                            
+    def closeEvent(self, e):
+ 	self.lineEdit.clear()
+
+                                           

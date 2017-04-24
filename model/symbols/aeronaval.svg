@@ -14,7 +14,7 @@
    inkscape:version="0.48.5 r10040"
    width="160"
    height="160"
-   sodipodi:docname="aeronaval.jpg.svg">
+   sodipodi:docname="aeronaval.svg">
   <metadata
      id="metadata3045">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,7 +43,7 @@
      id="namedview3041"
      showgrid="false"
      inkscape:zoom="2.8284271"
-     inkscape:cx="94.60178"
+     inkscape:cx="95.308887"
      inkscape:cy="74.835995"
      inkscape:window-x="1366"
      inkscape:window-y="0"
@@ -348,14 +348,14 @@
   </g>
   <text
      xml:space="preserve"
-	 style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
-     x="-183.41736"
-     y="62.146057"
+     style="font-size:37.59007645px;line-height:125%"
+     x="-242.85129"
+     y="43.884197"
      id="text3270"
      sodipodi:linespacing="125%"
-     transform="matrix(0,-0.52298941,1.9120846,0,0,0)"><tspan
+     transform="matrix(0,-0.37387652,2.6746799,0,0,0)"><tspan
        sodipodi:role="line"
        id="tspan3272"
-       x="-183.41736"
-       y="62.146057">8</tspan></text>
+       x="-242.85129"
+       y="43.884197">8</tspan></text>
 </svg>

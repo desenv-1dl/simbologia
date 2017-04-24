@@ -51,7 +51,7 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     style="fill:#000000"
+     style="fill:param(outline)#ffffff"
      d="m 4.5549636,10.424571 0,-5.1562498 23.9062504,0 23.90625,0 0,5.1562498 0,5.15625 -23.90625,0 -23.9062504,0 0,-5.15625 z m 45.9375004,0 0,-3.2812498 -22.03125,0 -22.0312504,0 0,3.2812498 0,3.28125 22.0312504,0 22.03125,0 0,-3.28125 z"
      id="path3338"
      inkscape:connector-curvature="0" />

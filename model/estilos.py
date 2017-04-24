@@ -12,7 +12,7 @@ class Estilos(QObject):
     def initVariables(self):
         self.nameStyles = {
                             'allied': 'allied',
-                            'enemy' : 'enemy',
+                            'enemy' : 'allied',
                             'location_command_a': 'location_command',
                             'location_command_e': 'location_command',
                             'observation_post_a': 'observation_post',
