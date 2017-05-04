@@ -8,7 +8,7 @@ class IconButtonInterface(QObject):
     def __init__(self):
         QObject.__init__(self)
         iconButton = QAction(QIcon(":/plugins/simbologia/view/icons/militarySimbology.png"),
-                              u"Editor de Edificações", iface.mainWindow())
+                              u"Simbologia Militar", iface.mainWindow())
         self.initVariables()
         self.setIconButton(iconButton)
         
