@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,16 +52,23 @@
      inkscape:current-layer="svg2" />
   <text
      xml:space="preserve"
-     style="font-size:22.21905708px;font-style:normal;font-weight:normal;line-height:124.00000095%;letter-spacing:0px;word-spacing:0px;fill:param(outline) #ffffff;fill-opacity:1;stroke:param(outline) #ffffff;font-family:Sans"
-     x="1.1211504"
-     y="20.956865"
+     style="font-size:16.21416473px;
+            font-style:normal;
+            font-weight:normal;
+            line-height:124.00000095%;
+            letter-spacing:0px;
+            word-spacing:0px;
+            fill-opacity:1;
+            font-family:Sans;
+            fill:param(outline) #ffffff"
+     x="4.9388237"
+     y="21.631638"
      id="text3020"
      sodipodi:linespacing="124%"
-     transform="scale(1.0189027,0.98144797)"><tspan
+     transform="scale(1.132626,0.88290399)"><tspan
        sodipodi:role="line"
        id="tspan3022"
-       x="1.1211504"
-       y="20.956865"
+       x="4.9388237"
+       y="21.631638"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:124.00000095%;font-family:Arial;-inkscape-font-specification:Arial">Rec</tspan></text>
 </svg>
-
