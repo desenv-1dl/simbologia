@@ -5,8 +5,8 @@ name=Simbologia Militar Beta
 qgisMinimumVersion=2.0
 description=Versão Beta para Simbologia Militar
 version=version Version 0.1
-author=Jossan costa
-email=me@hotmail.com
+author=Jossan
+email=***************
 ; end of mandatory metadata
 
 ; start of optional metadata

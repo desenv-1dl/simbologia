@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    width="50.625"
    height="30.9375"
    viewBox="0 0 50.625 30.9375"
@@ -24,12 +24,31 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs6" />
+     id="defs6">
+    <style
+       id="style6"
+       type="text/css">
+    .str0 {stroke:#1F1A17;stroke-width:0.9}
+    .fil0 {fill:none}
+   </style>
+    <style
+       id="style6-7"
+       type="text/css">
+    .str0 {stroke:#1F1A17;stroke-width:0.9}
+    .fil0 {fill:none}
+   </style>
+    <style
+       id="style6-3"
+       type="text/css">
+    .str0 {stroke:#1F1A17;stroke-width:0.9}
+    .fil0 {fill:none}
+   </style>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,20 +58,51 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1366"
+     inkscape:window-height="735"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="7.6282828"
-     inkscape:cx="25.3125"
-     inkscape:cy="15.46875"
+     inkscape:cx="31.998146"
+     inkscape:cy="27.101891"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-y="312"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
-  <path
-     style="stroke:param(outline) #ffffff; fill:param(outline) #ffffff"
-     d="M 10.741299,25.047191 C 6.1467776,21.09515 6.6045638,10.676431 11.511796,7.5115258 14.273032,5.7306746 32.689498,5.0104767 37.628392,6.4902052 42.027728,7.8082785 44.0625,11.248769 44.0625,17.369309 c 0,3.543993 -0.501289,4.83871 -2.740385,7.077806 l -2.740384,2.740385 -12.676087,0 c -11.84825,0 -12.838588,-0.139778 -15.164345,-2.140309 z M 40.135724,23.40098 C 42.8651,20.858179 43.011323,13.412599 40.395331,10.181985 38.669964,8.0512472 38.125232,7.96875 25.78125,7.96875 c -12.343982,0 -12.888714,0.082497 -14.614081,2.213235 -2.4657616,3.045086 -2.389665,9.430562 0.150875,12.660335 1.924289,2.446338 2.062841,2.47018 14.354474,2.47018 11.194612,0 12.612586,-0.187405 14.463206,-1.91152 z M 21.619291,20.681791 C 20.556806,19.619306 19.6875,17.90625 19.6875,16.875 c 0,-2.515883 3.2505,-5.628399 5.859375,-5.610644 2.675695,0.01821 3.876939,0.831262 5.345917,3.618342 1.001629,1.900381 0.905632,2.586872 -0.655493,4.6875 -2.350757,3.163146 -6.084817,3.644784 -8.618008,1.111593 z"
-     id="path3338"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g3962">
+    <rect
+       inkscape:transform-center-y="2.5014015"
+       inkscape:transform-center-x="-75.94083"
+       style="fill:none;stroke:param(outline) #ffffff;stroke-width:2.21895194;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3045"
+       width="32.826931"
+       height="17.737797"
+       x="9.4711838"
+       y="7.8318448"
+       ry="6.8917546" />
+    <g
+       transform="matrix(0.52979808,0,0,0.4821827,9.7344203,2.3796773)"
+       id="g3957"
+       style="fill-rule:evenodd">
+      <g
+         id="Camada_x0020_1">
+        <metadata
+           id="CorelCorpID_0Corel-Layer" />
+        <!--<path class="fil0 str0" d="M30 25.774c2.20866,0 3.99921,1.89213 3.99921,4.22598 0,2.33386 -1.79055,4.22598 -3.99921,4.22598 -2.20866,0 -3.99921,-1.89213 -3.99921,-4.22598 0,-2.33386 1.79055,-4.22598 3.99921,-4.22598z"/> -->
+        <!--<circle class="fil0 str0" cx="29.9999" cy="30.0001" r="11.0125"/>-->
+        <circle
+           d="m 41.012401,30.000099 c 0,6.082036 -4.930464,11.0125 -11.0125,11.0125 -6.082036,0 -11.0125,-4.930464 -11.0125,-11.0125 0,-6.082036 4.930464,-11.0125 11.0125,-11.0125 6.082036,0 11.0125,4.930464 11.0125,11.0125 z"
+           sodipodi:ry="11.0125"
+           sodipodi:rx="11.0125"
+           sodipodi:cy="30.000099"
+           sodipodi:cx="29.999901"
+           cx="29.999901"
+           cy="30.000099"
+           r="11.0125"
+           style="stroke-width:0.89999998;fill:param(outline) #ffffff"
+           id="circle3949" />
+      </g>
+    </g>
+  </g>
 </svg>

@@ -62,5 +62,12 @@
        id="tspan2984"
        x="4.8191829"
        y="19.148155"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">V</tspan></text>
+       style="font-style:normal;
+              font-variant:normal;
+              font-weight:normal;
+              font-stretch:normal;
+              font-family:Arial;
+              -inkscape-font-specification:Arial;
+              fill:param(outline) #ffffff"
+              >V</tspan></text>
 </svg>
